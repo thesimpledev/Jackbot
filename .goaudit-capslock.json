@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "created_at": "2026-08-04T18:08:59.511055098Z",
+  "capslock_version": "v0.3.2",
+  "goos": "linux",
+  "goarch": "amd64",
+  "gosum_sha256": "f3e9128b336d2ecc73b601bd43e4de48a5b8088bdbd02034b68406e8db8200fe",
+  "capabilities": {
+    "github.com/thesimpledev/Jackbot": [
+      "ARBITRARY_EXECUTION",
+      "FILES",
+      "MODIFY_SYSTEM_STATE",
+      "NETWORK",
+      "READ_SYSTEM_STATE",
+      "REFLECT",
+      "RUNTIME",
+      "UNANALYZED",
+      "UNSAFE_POINTER"
+    ],
+    "github.com/thesimpledev/Jackbot/internal/ai": [
+      "ARBITRARY_EXECUTION",
+      "FILES",
+      "MODIFY_SYSTEM_STATE",
+      "NETWORK",
+      "READ_SYSTEM_STATE",
+      "REFLECT",
+      "RUNTIME",
+      "UNANALYZED",
+      "UNSAFE_POINTER"
+    ],
+    "github.com/thesimpledev/Jackbot/internal/bot": [
+      "ARBITRARY_EXECUTION",
+      "FILES",
+      "MODIFY_SYSTEM_STATE",
+      "NETWORK",
+      "REFLECT",
+      "RUNTIME",
+      "UNANALYZED",
+      "UNSAFE_POINTER"
+    ],
+    "github.com/thesimpledev/Jackbot/internal/db": [
+      "ARBITRARY_EXECUTION",
+      "MODIFY_SYSTEM_STATE",
+      "NETWORK",
+      "READ_SYSTEM_STATE",
+      "REFLECT",
+      "RUNTIME",
+      "UNANALYZED",
+      "UNSAFE_POINTER"
+    ],
+    "github.com/thesimpledev/Jackbot/internal/history": [
+      "ARBITRARY_EXECUTION",
+      "MODIFY_SYSTEM_STATE",
+      "NETWORK",
+      "REFLECT",
+      "RUNTIME",
+      "UNANALYZED",
+      "UNSAFE_POINTER"
+    ]
+  }
+}

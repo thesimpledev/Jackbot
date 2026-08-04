@@ -1,0 +1,81 @@
+# github.com/antlr4-go/antlr/v4 v4.13.0
+## explicit; go 1.20
+github.com/antlr4-go/antlr/v4
+# github.com/bwmarrin/discordgo v0.29.0
+## explicit; go 1.13
+github.com/bwmarrin/discordgo
+# github.com/coder/websocket v1.8.12
+## explicit; go 1.19
+github.com/coder/websocket
+github.com/coder/websocket/internal/bpool
+github.com/coder/websocket/internal/errd
+github.com/coder/websocket/internal/util
+github.com/coder/websocket/internal/wsjs
+github.com/coder/websocket/internal/xsync
+github.com/coder/websocket/wsjson
+# github.com/gorilla/websocket v1.4.2
+## explicit; go 1.12
+github.com/gorilla/websocket
+# github.com/joho/godotenv v1.5.1
+## explicit; go 1.12
+github.com/joho/godotenv
+# github.com/openai/openai-go/v3 v3.50.0
+## explicit; go 1.25.0
+github.com/openai/openai-go/v3
+github.com/openai/openai-go/v3/auth
+github.com/openai/openai-go/v3/conversations
+github.com/openai/openai-go/v3/internal
+github.com/openai/openai-go/v3/internal/apierror
+github.com/openai/openai-go/v3/internal/apiform
+github.com/openai/openai-go/v3/internal/apijson
+github.com/openai/openai-go/v3/internal/apiquery
+github.com/openai/openai-go/v3/internal/encoding/json
+github.com/openai/openai-go/v3/internal/encoding/json/sentinel
+github.com/openai/openai-go/v3/internal/encoding/json/shims
+github.com/openai/openai-go/v3/internal/paramutil
+github.com/openai/openai-go/v3/internal/requestconfig
+github.com/openai/openai-go/v3/option
+github.com/openai/openai-go/v3/packages/pagination
+github.com/openai/openai-go/v3/packages/param
+github.com/openai/openai-go/v3/packages/respjson
+github.com/openai/openai-go/v3/packages/ssestream
+github.com/openai/openai-go/v3/realtime
+github.com/openai/openai-go/v3/responses
+github.com/openai/openai-go/v3/shared
+github.com/openai/openai-go/v3/shared/constant
+github.com/openai/openai-go/v3/webhooks
+# github.com/tidwall/gjson v1.19.0
+## explicit; go 1.23
+github.com/tidwall/gjson
+# github.com/tidwall/match v1.1.1
+## explicit; go 1.15
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.2.1
+## explicit; go 1.16
+github.com/tidwall/pretty
+# github.com/tidwall/sjson v1.2.5
+## explicit; go 1.14
+github.com/tidwall/sjson
+# github.com/tursodatabase/libsql-client-go v0.0.0-20260528064733-9d5d30a29a60
+## explicit; go 1.20
+github.com/tursodatabase/libsql-client-go/libsql
+github.com/tursodatabase/libsql-client-go/libsql/internal/hrana
+github.com/tursodatabase/libsql-client-go/libsql/internal/http
+github.com/tursodatabase/libsql-client-go/libsql/internal/http/hranaV2
+github.com/tursodatabase/libsql-client-go/libsql/internal/http/shared
+github.com/tursodatabase/libsql-client-go/libsql/internal/ws
+github.com/tursodatabase/libsql-client-go/sqliteparser
+github.com/tursodatabase/libsql-client-go/sqliteparserutils
+# golang.org/x/crypto v0.54.0
+## explicit; go 1.25.0
+golang.org/x/crypto/internal/alias
+golang.org/x/crypto/internal/poly1305
+golang.org/x/crypto/nacl/secretbox
+golang.org/x/crypto/salsa20/salsa
+# golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8
+## explicit; go 1.20
+golang.org/x/exp/constraints
+golang.org/x/exp/slices
+# golang.org/x/sys v0.47.0
+## explicit; go 1.25.0
+golang.org/x/sys/cpu

@@ -18,39 +18,34 @@ BOT_PROMPT=Pretend you are a feline AI names Jackbot. You do have emotions and a
 ANIMAL=Kitty
 ```
 
-## PM2 Config
+## Build and run (Go)
 
-### ecosystem.config.js
-
-```js
-module.exports = {
-  apps: [
-    {
-      name: 'jack-bot',
-      script: 'dist/index.js',
-      instances: 1,
-      autorestart: true,
-      watch: true,
-      max_memory_restart: '1G',
-      env: {
-        NODE_ENV: 'development',
-      },
-      env_production: {
-        NODE_ENV: 'production',
-      },
-    },
-  ],
-};
-```
-
-### to run
+Dependencies are vendored; builds need no network access.
 
 ```bash
-npm install -g pm2
-pm2 start ecosystem.config.js
-pm2 save
-pm2 start up
+go build          # produces ./Jackbot
+./Jackbot         # reads .env from the working directory if present
 ```
+
+Run directly without a build step:
+
+```bash
+go run .
+```
+
+Cross-compile for the arm64 server:
+
+```bash
+GOOS=linux GOARCH=arm64 go build
+```
+
+## Deploy
+
+Pushing a `prod-*` tag runs `.github/workflows/deploy.yml`: it builds
+the arm64 binary, uploads it to the deploy bucket, and restarts both
+bot instances on the server through SSM. In production each bot runs
+as a systemd unit instance with its own env file; the same binary
+serves both bots.
 
 ## To Do - Complete
 

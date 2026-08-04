@@ -3,3 +3,5 @@ node_modules/
 package-lock.json
 dist/
 ecosystem.config.js
+Jackbot
+goaudit-report.json
