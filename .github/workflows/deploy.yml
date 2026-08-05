@@ -45,7 +45,7 @@ jobs:
             --parameters 'commands=[
               "set -e",
               "aws s3api get-object --bucket ${{ vars.DEPLOY_BUCKET }} --key jackbot/bin/jackbot /tmp/jackbot.new",
-              "install -o root -g root -m 0755 /tmp/jackbot.new /opt/jackbot/bin/jackbot",
+              "install -o root -g root -m 0755 /tmp/jackbot.new /home/ubuntu/jackbot/bin/jackbot",
               "rm /tmp/jackbot.new",
               "systemctl restart jackbot@jackbot jackbot@frogbot"
             ]' \
