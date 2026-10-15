@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "created_at": "2026-08-04T18:08:59.511055098Z",
-  "capslock_version": "v0.3.2",
+  "created_at": "2026-10-15T14:58:58.069197457Z",
+  "capslock_version": "v0.3.3",
   "goos": "linux",
   "goarch": "amd64",
-  "gosum_sha256": "f3e9128b336d2ecc73b601bd43e4de48a5b8088bdbd02034b68406e8db8200fe",
+  "gosum_sha256": "daa9ef6b3370f8a1b5cb87630f26d8257f5894d4bf381cd1db8397a658141467",
   "capabilities": {
     "github.com/thesimpledev/Jackbot": [
       "ARBITRARY_EXECUTION",
@@ -40,6 +40,7 @@
     ],
     "github.com/thesimpledev/Jackbot/internal/db": [
       "ARBITRARY_EXECUTION",
+      "FILES",
       "MODIFY_SYSTEM_STATE",
       "NETWORK",
       "READ_SYSTEM_STATE",
@@ -50,6 +51,7 @@
     ],
     "github.com/thesimpledev/Jackbot/internal/history": [
       "ARBITRARY_EXECUTION",
+      "FILES",
       "MODIFY_SYSTEM_STATE",
       "NETWORK",
       "REFLECT",
