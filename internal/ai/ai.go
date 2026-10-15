@@ -25,11 +25,11 @@ type Service struct {
 	hist    *history.Service
 }
 
-// New builds a Service; empty model and botName fall back to the same
-// defaults the TypeScript bot used.
+// New builds a Service; an empty model falls back to gpt-6-luna and an
+// empty botName falls back to the default the TypeScript bot used.
 func New(apiKey, model, botName string, hist *history.Service) *Service {
 	if model == "" {
-		model = "gpt-3.5-turbo"
+		model = "gpt-6-luna"
 	}
 	if botName == "" {
 		botName = "Bot"
